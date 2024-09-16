@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ** Title  ** -->
+    <title>Eccommerce || Sign In</title>
+    <script src="assets/libs/jquery.min.js"></script>
+    <!-- **  Bootstrap Css  -->
+    <link rel="stylesheet" href="assets/libs/bootstrap/css/bootstrap.min.css">
+    <!-- **  Owl Carousel Css  -->
+    <!-- <link rel="stylesheet" href="assets/libs/owl-slider/owl.carousel.min.css"> -->
+    <!-- ** GlightBox Css -->
+    <!-- <link rel="stylesheet" href="assets/libs/glightBox/css/glightbox.min.css"> -->
+    <!-- ** Style Css  -->
+    <link rel="stylesheet" href="assets/css/style.min.css">
+</head>
+<body>
+    
+    <section class="signUpsection m-0">
+        <div class="container innerfluid h-100">
+            <div class="row h-100 align-items-center justify-content-center">
+                <div class="col-xxl-5 col-xl-6 col-lg-7 col-md-8 col-sm-10 col-12">
+                    <div class="card formcard">
+                        <div class="card-body">
+                            <div class="innerformbody" id="loginGroup">
+                                <ul class="nav nav-pills row mb-4" id="pills-tab" role="tablist">
+                                    <li class="nav-item col-6" role="presentation"><button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Sign In</button></li>
+                                    <li class="nav-item col-6" role="presentation"><button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Sign Up</button></li>
+                                </ul>
+                                <div class="tab-content" id="pills-tabContent">
+                                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                                        <form action="">
+                                            <div class="row row-gap-4">
+                                                <div class="col-12">
+                                                    <div class="form-floating">
+                                                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                                                        <label for="floatingInput">Email Address</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="form-floating">
+                                                        <input type="password" class="form-control" id="password" placeholder="******">
+                                                        <label for="password">Your Password</label>
+                                                    </div>
+                                                </div>
+                                                <!-- <div class="col-12">
+                                                    <div class="form-floating password">
+                                                        <input type="password" class="form-control" id="password" placeholder="******">
+                                                        <label for="password">Your Password</label>
+                                                        <div class="visibalty show">
+                                                            <span class="closeEye"><img src="assets/images/icon/close_eye.svg" alt="password unvisibile"></span>
+                                                            <span class="openEye"><img src="assets/images/icon/eye.svg" alt="password visibile"></span>
+                                                        </div>
+                                                    </div>
+                                                </div> -->
+                                                <div class="col-12">
+                                                    <div class="row align-items-center">
+                                                        <div class="col checkbox">
+                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                            <label class="form-check-label" for="flexCheckDefault">Remember me</label>
+                                                        </div>
+                                                        <div class="col-auto"><a href="javascript:;" class="lostPassword" id="forgot_password">Lost Password?</a></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12"><button type="button" class="btn themebtn fill w-100">LOG IN<span><img src="assets/images/icon/right_arrow.svg" alt="arrow"></span></button></div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                                        <form action="">
+                                            <div class="row row-gap-4">
+                                                <div class="col-12">
+                                                    <div class="form-floating">
+                                                        <input type="email" class="form-control" id="user" placeholder="Username">
+                                                        <label for="user">Username</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="form-floating">
+                                                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                                                        <label for="floatingInput">Email Address</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="form-floating">
+                                                        <input type="password" class="form-control" id="password" placeholder="******">
+                                                        <label for="password">Your Password</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 checkbox d-flex align-items-start">
+                                                    <input class="form-check-input" type="checkbox" value="" id="t&c">
+                                                    <label class="form-check-label" for="t&c">Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our privacy policy.</label>
+                                                </div>
+                                                <div class="col-12"><button type="button" class="btn themebtn fill w-100">REGISTER<span><img src="assets/images/icon/right_arrow.svg" alt="arrow"></span></button></div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="forgotPasswordBody" id="forgotBody">
+                                <form action="">
+                                    <div class="row row-gap-4">
+                                        <div class="col-12 createaccount">We will send you an email to reset your password</div>
+                                        <div class="col-12">
+                                            <div class="form-floating">
+                                                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                                                <label for="floatingInput">Email Address</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-12"><button type="button" class="btn themebtn fill w-100" id="p_submit">SUBMIT<span><img src="assets/images/icon/right_arrow.svg" alt="arrow"></span></button></div>
+                                        <div class="col-12 text-end"><a href="javascript:;" class="lostPassword" id="backToLogin">Back To Login</a></div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="forgotPasswordBody otpFeild" id="otpFeild">
+                                <form action="">
+                                    <div class="row row-gap-4">
+                                        <div class="col-12 createaccount">Please Enter OTP</div>
+                                        <div class="col-12 verification-code">
+                                            <ul class="otpbox verification-code--inputs otpbox">
+                                                <input type="text" maxlength="1" class="form-control box">
+                                                <input type="text" maxlength="1" class="form-control box">
+                                                <input type="text" maxlength="1" class="form-control box">
+                                                <input type="text" maxlength="1" class="form-control box">
+                                                <input type="text" maxlength="1" class="form-control box">
+                                                <input type="text" maxlength="1" class="form-control box">
+                                            </ul>
+                                        </div>
+                                        <div class="col-12"><button type="button" class="btn themebtn fill w-100">SUBMIT<span><img src="assets/images/icon/right_arrow.svg" alt="arrow"></span></button></div>
+                                        <div class="col-12 text-end"><a href="javascript:;" class="lostPassword" id="backToPassword">Change Email Address</a></div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ** Script Links Start ** -->
+    <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="assets/libs/owl-slider/owl.carousel.min.js"></script>
+    <script src="assets/libs/glightBox/js/glightbox.min.js"></script> -->
+    <script src="assets/js/custom.js"></script>
+    <!-- ** Script Links End ** -->
+    <script>
+        var div1 = document.getElementById("forgot_password");
+        var div2 = document.getElementById("loginGroup");
+        var div3 = document.getElementById("forgotBody");
+        var back_to_login = document.getElementById("backToLogin")
+        var otpFeild = document.getElementById("otpFeild")
+        var Forgot_P = document.getElementById("p_submit")
+        var back_to_password = document.getElementById("backToPassword")
+        div1.addEventListener("click", function() {
+            div2.style.display = "none";
+            div3.style.display = "block";
+        });
+        // * Forgot Password
+        back_to_login.addEventListener("click", function(){
+            div2.style.display = "block";
+            div3.style.display = "none";
+        })
+        // * OTP Form
+        Forgot_P.addEventListener("click", function(){
+            div2.style.display = "none";
+            div3.style.display = "none";
+            otpFeild.style.display = "block";
+        })
+        back_to_password.addEventListener("click", function(){
+            otpFeild.style.display = "none";
+            div3.style.display = "block";
+        })
+
+    </script>
+    <script>
+        //Code Verification
+        var verificationCode = [];
+        $(".verification-code input[type=text]").keyup(function (e) {
+        
+        // Get Input for Hidden Field
+        $(".verification-code input[type=text]").each(function (i) {
+            verificationCode[i] = $(".verification-code input[type=text]")[i].value; 
+            $('#verificationCode').val(Number(verificationCode.join('')));
+            //console.log( $('#verificationCode').val() );
+        });
+
+        //console.log(event.key, event.which);
+
+        if ($(this).val() > 0) {
+            if (event.key == 1 || event.key == 2 || event.key == 3 || event.key == 4 || event.key == 5 || event.key == 6 || event.key == 7 || event.key == 8 || event.key == 9 || event.key == 0) {
+            $(this).next().focus();
+            }
+        }else {
+            if(event.key == 'Backspace'){
+                $(this).prev().focus();
+            }
+        }
+
+        }); // keyup
+
+        $('.verification-code input').on("paste",function(event,pastedValue){
+        console.log(event)
+        $('#txt').val($content)
+        console.log($content)
+        //console.log(values)
+        });
+
+        $editor.on('paste, keydown', function() {http://jsfiddle.net/5bNx4/#run
+        var $self = $(this);            
+                    setTimeout(function(){ 
+                        var $content = $self.html();             
+                        $clipboard.val($content);
+                    },100);
+            });
+    </script>
+    <script>
+        $(".toggle-password").click(function() {
+        $(this).toggleClass("fa-eye fa-eye-slash");
+        var input = $($(this).attr("toggle"));
+        if (input.attr("type") == "password") {
+        input.attr("type", "text");
+        } else {
+        input.attr("type", "password");
+        }
+        });
+    </script>
+</body>
+</html>

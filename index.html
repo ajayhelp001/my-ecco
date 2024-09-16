@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ** Title  ** -->
+    <title>Eccommerce || Home</title>
+    <script src="assets/libs/jquery.min.js"></script>
+    <!-- **  Bootstrap Css  -->
+    <link rel="stylesheet" href="assets/libs/bootstrap/css/bootstrap.min.css">
+    <!-- **  Owl Carousel Css  -->
+    <link rel="stylesheet" href="assets/libs/owl-slider/owl.carousel.min.css">
+    <!-- ** Style Css  -->
+    <link rel="stylesheet" href="assets/css/style.min.css">
+</head>
+<body>
+    <!-- * Header Start -->
+    <nav class="navbar navbar-expand-lg header" aria-label="Offcanvas navbar large">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Ecommerce</a>
+            <div class="d-flex align-items-center gap-sm-3 gap-2">
+                <div class="rightside d-lg-none d-flex">
+                    <ul class="nevigate">
+                        <li><a href="javascript:;" class="iconsimages" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"><img src="assets/images/icon/search.svg" alt="search"></a></li>
+                        <li><a href="javascript:;" class="iconsimages" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"><img src="assets/images/icon/add_to_cart.svg" alt="add cart"><span>0</span></a></li>
+                        <li><a href="whichlist.html" class="iconsimages"><img src="assets/images/icon/wishlist.svg" alt="wishlist"><span>0</span></a></li>
+                        <li><a href="signup.html" class="iconsimages d-sm-flex d-none"><img src="assets/images/icon/user.svg" alt="user account"></a></li>
+                    </ul>
+                </div>
+                <button class="navbar-toggler burgurMenu shadow-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2"
+                    aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
+                    <span><img src="assets/images/icon/menu.svg" class="w-100" alt=""></span>
+                </button>
+            </div>
+            <div class="offcanvas offcanvas-end border-0" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Ecommerce</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-center align-items-lg-center flex-grow-1">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="javascript:;">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="product.html">Products</a></li>
+                        <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Conntact Us</a></li>
+                        
+                    </ul>
+                    <div class="rightside d-lg-flex d-none">
+                        <ul class="nevigate">
+                            <li><a href="javascript:;" class="iconsimages" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"><img src="assets/images/icon/search.svg" alt="search"></a></li>
+                            <li><a href="javascript:;" class="iconsimages" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"><img src="assets/images/icon/add_to_cart.svg" alt="add cart"><span>0</span></a></li>
+                            <li><a href="whichlist.html" class="iconsimages"><img src="assets/images/icon/wishlist.svg" alt="wishlist"><span>0</span></a></li>
+                            <li><a href="signup.html" class="iconsimages"><img src="assets/images/icon/user.svg" alt="user account"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- ! ** Header End -->
+
+    <!-- ** Hero Section Start ** -->
+    <section class="herosection m-0">
+        <div class="container innerfluid">
+            <div class="row h-100 align-items-center justify-content-between">
+                <div class="col-sm-6 h-100 animationpart d-flex align-items-sm-end order-sm-1 order-2">
+                    <div class="productPart">
+                        <span class="animated circle1"></span>
+                        <span class="animated circle2"></span>
+                        <img src="assets/images/slider-1.png" class="slidesImg" alt="slider-1">
+                    </div>
+                </div>
+                <div class="col-xxl-5 col-sm-6 order-sm-2 order-1">
+                    <div class="row">
+                        <div class="col-12"><div class="subheading">Best Ear Headphones</div></div>
+                        <div class="col-12"><div class="mainheading">Find <span>Best</span> Matley Sound</div></div>
+                        <div class="col-12 loremtext">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus ex id enim veniam quas soluta.</div>
+                        <div class="col-12"><a href="javascript:;" class="btn themebtn">Shop Now <span><img src="assets/images/icon/right_arrow.svg" alt="arrow"></span></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--! ** Hero Section End ** -->
+
+    <!-- ** Chosse What You Want Section Start -->
+    <section class="chooseSecton">
+        <div class="container innerfluid">
+            <div class="row">
+                <div class="col-12"><div class="heading">Choose Us <span>Choose What You Want</span></div></div>
+                <div class="col-12">
+                    <div class="row row-gap-3 gx-3">
+                        <div class="col-sm-4">
+                            <div class="card productCard">
+                                <div class="card-body">
+                                    <div class="card-img"><img src="assets/images/choose-product-card-img1.png" class="w-100" alt=""></div>
+                                    <a href="javascript:;" class="productdetails">
+                                        <div class="productName">Face</div>
+                                        <div class="p_category">care</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="card productCard">
+                                <div class="card-body">
+                                    <div class="card-img"><img src="assets/images/choose-product-card-img3.png" class="w-100" alt=""></div>
+                                    <a href="javascript:;" class="productdetails darkmode">
+                                        <div class="productName">Hair</div>
+                                        <div class="p_category">care</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="card productCard">
+                                <div class="card-body">
+                                    <div class="card-img"><img src="assets/images/choose-product-card-img2.png" class="w-100" alt=""></div>
+                                    <a href="javascript:;" class="productdetails">
+                                        <div class="productName">Body</div>
+                                        <div class="p_category">Health</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--! ** Chosse What You Want Section End -->
+
+    <!-- **Offer Section Start ** -->
+    <section class="offerSection m-0">
+        <div class="container">
+            <div class="row row-gap-lg-5 row-gap-sm-4 row-gap-3 mx-0">
+                <div class="col-12 productName">One-colored <br>jackets up to</div>
+                <div class="col-12 discount">-20%</div>
+                <div class="col-12"><a href="javascript:;" class="btn themebtn fill">Shop Now <span><img src="assets/images/icon/right_arrow.svg" alt="arrow"></span></a></div>
+            </div>
+        </div>
+    </section>
+    <!--! **Offer Section End ** -->
+
+    <!-- ** Trending Products Start -->
+    <section class="trendingProduct">
+        <div class="container">
+            <div class="row">
+                <div class="col-12"><div class="heading">Trending Products <span>Best Selling Product</span></div></div>
+            </div>
+            <div class="row g-sm-3 g-2">
+                <div class="col-xl-3 col-md-4 col-6">
+                    <div class="card pr_Card">
+                        <div class="card-body">
+                            <div class="productBody">
+                                <div class="productImg">
+                                    <img src="assets/images/product/product-img-1.png" class="img1" alt="product img 1">
+                                    <img src="assets/images/product/product-img-2.png" class="img2" alt="product img 2">
+                                </div>
+                                <div class="offers">
+                                    <span class="new">new</span>
+                                    <span>-15%</span>
+                                </div>
+                                <div class="viewicon">
+                                    <ul class="list-unstyled seeIcon">
+                                        <li><a href="javascript:;"><img src="assets/images/icon/wishlist.svg" alt="like"></a></li>
+                                        <li><a href="javascript:;"><img src="assets/images/icon/view.svg" alt="view"></a></li>
+                                    </ul>
+                                </div>
+                                <div class="overlay">
+                                    <a href="javascript:;" class="btn themebtn fill cart">Add To Cart<span><img src="assets/images/icon/right_arrow.svg" alt="arrow"></span></a>
+                                </div>
+                            </div>
+                            <div class="contant-body">
+                                <div class="row row-gap-sm-3 row-gap-2">
+                                    <div class="col-12"><div class="productName"><a href="product-details.html" class="pName">Poutsicle Hydrating Lip Stain.</a> <span class="bName">REVLON</span></div></div>
+                                    <div class="col-12">
+                                        <div class="values">
+                                            <div class="prich">$150.00 <span>$200.00</span></div>
+                                            <div class="rating">
+                                                <ul class="starts list-unstyled">
+                                                    <li><span><img src="assets/images/icon/start.svg" alt="star"></span></li>
+                                                    <li><span><img src="assets/images/icon/start.svg" alt="star"></span></li>
+                                                    <li><span><img src="assets/images/icon/start.svg" alt="star"></span></li>
+                                                    <li><span><img src="assets/images/icon/start.svg" alt="star"></span></li>
+                                                    <li><span><img src="assets/images/icon/start.svg" alt="star"></span></li>
+                                                    <li><div class="totalRating">(50)</div></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <span class="forborder"></span>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-4 col-6">
+                    <div class="card pr_Card">
+                        <div class="card-body">
+                            <div class="productBody">
+                                <div class="productImg">
+                                    <img src="assets/images/product/product-img-3.png" class="img1" alt="product img 1">
+                                    <img src="assets/images/product/product-img-4.png" class="img2" alt="product img 2">
+                                </div>
+                                <div class="offers">
+                                    <!-- <span class="new">new</span> -->
+                                    <span>-25%</span>
+                                </div>
+                                <div class="viewicon">
+                                    <ul class="list-unstyled seeIcon">
+                                        <li><a href="javascript:;"><img src="assets/images/icon/wishlist.svg" alt="like"></a></li>
+                                        <li><a href="javascript:;"><img src="assets/images/icon/view.svg" alt="view"></a></li>
+                                    </ul>
+                                </div>
+                                <div class="overlay">
+                                    <a href="javascript:;" class="btn themebtn fill cart">Add To Cart<span><img src="assets/images/icon/right_arrow.svg" alt="arrow"></span></a>
+                                </div>
+                            </div>
+                            <div class="contant-body">
+                                <div class="row row-gap-sm-3 row-gap-2">
+                                    <div class="col-12"><div class="productName"><a href="product-details.html" class="pName">Velvet Red Charm</a> <span class="bName">AQUA KISS</span></div></div>
+                                    <div class="col-12">
+                                        <div class="values">
+                                            <div class="prich">$150.00 <span>$200.00</span></div>
+                                            <div class="rating">
+                                                <ul class="starts list-unstyled">
+                                                    <li><span><img src="assets/images/icon/start.svg" alt="star"></span></li>
+                                                    <li><span><img src="assets/images/icon/start.svg" alt="star"></span></li>
+                                                    <li><span><img src="assets/images/icon/start.svg" alt="star"></span></li>
+                                                    <li><span><img src="assets/images/icon/start.svg" alt="star"></span></li>
+                                                    <li><span><img src="assets/images/icon/start.svg" alt="star"></span></li>
+                                                    <li><div class="totalRating">(50)</div></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <span class="forborder"></span>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-4 col-6">
+                    <div class="card pr_Card">
+                        <div class="card-body">
+                            <div class="productBody">
+                                <div class="productImg selected">
+                                    <img src="assets/images/product/product-img-2.png" class="img1" alt="product img 1">
+                                    <img src="assets/images/product/product-img-2.png" class="img2" alt="product img 2">
+                                </div>
+                                <div class="offers">
+                                    <!-- <span class="new">new</span> -->
+                                    <span>-15%</span>
+                                </div>
+                                <div class="viewicon">
+                                    <ul class="list-unstyled seeIcon">
+                                        <li><a href="javascript:;"><img src="assets/images/icon/wishlist.svg" alt="like"></a></li>
+                                        <li><a href="javascript:;"><img src="assets/images/icon/view.svg" alt="view"></a></li>
+                                    </ul>
+                                </div>
+                                <div class="overlay">
+                                    <a href="javascript:;" class="btn themebtn fill cart">Add To Cart<span><img src="assets/images/icon/right_arrow.svg" alt="arrow"></span></a>
+                                </div>
+                            </div>
+                            <div class="contant-body">
+                                <div class="row row-gap-sm-3 row-gap-2">
+                                    <div class="col-12"><div class="productName"><a href="product-details.html" class="pName">Hydrating Waves</a> <span class="bName">SEA BREEZE</span></div></div>
+                                    <div class="col-12">
+                                        <div class="values">
+                                            <div class="prich">$150.00 <span>$200.00</span></div>
+                                            <div class="rating">
+                                                <ul class="starts list-unstyled">
+                                                    <li><span><img src="assets/images/icon/start.svg" alt="star"></span></li>
+                                                    <li><span><img src="assets/images/icon/start.svg" alt="star"></span></li>
+                                                    <li><span><img src="assets/images/icon/start.svg" alt="star"></span></li>
+                                                    <li><span><img src="assets/images/icon/start.svg" alt="star"></span></li>
+                                                    <li><span><img src="assets/images/icon/start.svg" alt="star"></span></li>
+                                                    <li><div class="totalRating">(50)</div></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <span class="forborder"></span>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-4 col-6">
+                    <div class="card pr_Card">
+                        <div class="card-body">
+                            <div class="productBody">
+                                <div class="productImg selected">
+                                    <img src="assets/images/product/product-img-5.png" class="img1" alt="product img 1">
+                                    <img src="assets/images/product/product-img-2.png" class="img2" alt="product img 2">
+                                </div>
+                                <div class="offers">
+                                    <!-- <span class="new">new</span> -->
+                                    <span>-15%</span>
+                                </div>
+                                <div class="viewicon">
+                                    <ul class="list-unstyled seeIcon">
+                                        <li><a href="javascript:;"><img src="assets/images/icon/wishlist.svg" alt="like"></a></li>
+                                        <li><a href="javascript:;"><img src="assets/images/icon/view.svg" alt="view"></a></li>
+                                    </ul>
+                                </div>
+                                <!-- <div class="out_off_stock">Out Of Stock</div> -->
+                                <div class="overlay ">
+                                    <a href="javascript:;" class="btn themebtn fill cart outoffstock">Out Of Stock</a>
+                                </div>
+                            </div>
+                            <div class="contant-body">
+                                <div class="row row-gap-sm-3 row-gap-2">
+                                    <div class="col-12"><div class="productName"><a href="product-details.html" class="pName">Organic Jojoba Blend</a> <span class="bName">LASH LUXE</span></div></div>
+                                    <div class="col-12">
+                                        <div class="values">
+                                            <div class="prich">$150.00 <span>$200.00</span></div>
+                                            <div class="rating">
+                                                <ul class="starts list-unstyled">
+                                                    <li><span><img src="assets/images/icon/start.svg" alt="star"></span></li>
+                                                    <li><span><img src="assets/images/icon/start.svg" alt="star"></span></li>
+                                                    <li><span><img src="assets/images/icon/start.svg" alt="star"></span></li>
+                                                    <li><span><img src="assets/images/icon/start.svg" alt="star"></span></li>
+                                                    <li><span><img src="assets/images/icon/start.svg" alt="star"></span></li>
+                                                    <li><div class="totalRating">(50)</div></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <span class="forborder"></span>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-4 col-6">
+                    <div class="card pr_Card">
+                        <div class="card-body">
+                            <div class="productBody">
+                                <div class="productImg">
+                                    <img src="assets/images/product/product-img-6.png" class="img1" alt="product img 1">
+                                    <img src="assets/images/product/product-img-7.png" class="img2" alt="product img 2">
+                                </div>
+                                <div class="offers">
+                                    <span class="new">new</span>
+                                    <span>-15%</span>
+                                </div>
+                                <div class="viewicon">
+                                    <ul class="list-unstyled seeIcon">
+                                        <li><a href="javascript:;"><img src="assets/images/icon/wishlist.svg" alt="like"></a></li>
+                                        <li><a href="javascript:;"><img src="assets/images/icon/view.svg" alt="view"></a></li>
+                                    </ul>
+                                </div>
+                                <div class="overlay">
+                                    <a href="javascript:;" class="btn themebtn fill cart">Add To Cart<span><img src="assets/images/icon/right_arrow.svg" alt="arrow"></span></a>
+                                </div>
+                            </div>
+                            <div class="contant-body">
+                                <div class="row row-gap-sm-3 row-gap-2">
+                                    <div class="col-12"><div class="productName"><a href="product-details.html" class="pName">Nourishing Herbal Cleanse</a> <span class="bName">RADIANCE</span></div></div>
+                                    <div class="col-12">
+                                        <div class="values">
+                                            <div class="prich">$150.00 <span>$200.00</span></div>
+                                            <div class="rating">
+                                                <ul class="starts list-unstyled">
+                                                    <li><span><img src="assets/images/icon/start.svg" alt="star"></span></li>
+                                                    <li><span><img src="assets/images/icon/start.svg" alt="star"></span></li>
+                                                    <li><span><img src="assets/images/icon/start.svg" alt="star"></span></li>
+                                                    <li><span><img src="assets/images/icon/start.svg" alt="star"></span></li>
+                                                    <li><span><img src="assets/images/icon/start.svg" alt="star"></span></li>
+                                                    <li><div class="totalRating">(50)</div></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <span class="forborder"></span>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-4 col-6">
+                    <div class="card pr_Card">
+                        <div class="card-body">
+                            <div class="productBody">
+                                <div class="productImg">
+                                    <img src="assets/images/product/product-img-1.png" class="img1" alt="product img 1">
+                                    <img src="assets/images/product/product-img-2.png" class="img2" alt="product img 2">
+                                </div>
+                                <div class="offers">
+                                    <!-- <span class="new">new</span> -->
+                                    <span>-25%</span>
+                                </div>
+                                <div class="viewicon">
+                                    <ul class="list-unstyled seeIcon">
+                                        <li><a href="javascript:;"><img src="assets/images/icon/wishlist.svg" alt="like"></a></li>
+                                        <li><a href="javascript:;"><img src="assets/images/icon/view.svg" alt="view"></a></li>
+                                    </ul>
+                                </div>
+                                <div class="overlay">
+                                    <a href="javascript:;" class="btn themebtn fill cart">Add To Cart<span><img src="assets/images/icon/right_arrow.svg" alt="arrow"></span></a>
+                                </div>
+                            </div>
+                            <div class="contant-body">
+                                <div class="row row-gap-sm-3 row-gap-2">
+                                    <div class="col-12"><div class="productName"><a href="product-details.html" class="pName">Velvet Red Charm</a> <span class="bName">AQUA KISS</span></div></div>
+                                    <div class="col-12">
+                                        <div class="values">
+                                            <div class="prich">$150.00 <span>$200.00</span></div>
+                                            <div class="rating">
+                                                <ul class="starts list-unstyled">
+                                                    <li><span><img src="assets/images/icon/start.svg" alt="star"></span></li>
+                                                    <li><span><img src="assets/images/icon/start.svg" alt="star"></span></li>
+                                                    <li><span><img src="assets/images/icon/start.svg" alt="star"></span></li>
+                                                    <li><span><img src="assets/images/icon/start.svg" alt="star"></span></li>
+                                                    <li><span><img src="assets/images/icon/start.svg" alt="star"></span></li>
+                                                    <li><div class="totalRating">(50)</div></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <span class="forborder"></span>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-4 col-6">
+                    <div class="card pr_Card">
+                        <div class="card-body">
+                            <div class="productBody">
+                                <div class="productImg">
+                                    <img src="assets/images/product/product-img-3.png" class="img1" alt="product img 1">
+                                    <img src="assets/images/product/product-img-4.png" class="img2" alt="product img 2">
+                                </div>
+                                <div class="offers">
+                                    <!-- <span class="new">new</span> -->
+                                    <span>-25%</span>
+                                </div>
+                                <div class="viewicon">
+                                    <ul class="list-unstyled seeIcon">
+                                        <li><a href="javascript:;"><img src="assets/images/icon/wishlist.svg" alt="like"></a></li>
+                                        <li><a href="javascript:;"><img src="assets/images/icon/view.svg" alt="view"></a></li>
+                                    </ul>
+                                </div>
+                                <div class="overlay">
+                                    <a href="javascript:;" class="btn themebtn fill cart">Add To Cart<span><img src="assets/images/icon/right_arrow.svg" alt="arrow"></span></a>
+                                </div>
+                            </div>
+                            <div class="contant-body">
+                                <div class="row row-gap-sm-3 row-gap-2">
+                                    <div class="col-12"><div class="productName"><a href="product-details.html" class="pName">Velvet Red Charm</a> <span class="bName">AQUA KISS</span></div></div>
+                                    <div class="col-12">
+                                        <div class="values">
+                                            <div class="prich">$150.00 <span>$200.00</span></div>
+                                            <div class="rating">
+                                                <ul class="starts list-unstyled">
+                                                    <li><span><img src="assets/images/icon/start.svg" alt="star"></span></li>
+                                                    <li><span><img src="assets/images/icon/start.svg" alt="star"></span></li>
+                                                    <li><span><img src="assets/images/icon/start.svg" alt="star"></span></li>
+                                                    <li><span><img src="assets/images/icon/start.svg" alt="star"></span></li>
+                                                    <li><span><img src="assets/images/icon/start.svg" alt="star"></span></li>
+                                                    <li><div class="totalRating">(50)</div></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <span class="forborder"></span>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-4 col-6">
+                    <div class="card pr_Card">
+                        <div class="card-body">
+                            <div class="productBody">
+                                <div class="productImg selected">
+                                    <img src="assets/images/product/product-img-2.png" class="img1" alt="product img 1">
+                                    <img src="assets/images/product/product-img-2.png" class="img2" alt="product img 2">
+                                </div>
+                                <div class="offers">
+                                    <!-- <span class="new">new</span> -->
+                                    <span>-15%</span>
+                                </div>
+                                <div class="viewicon">
+                                    <ul class="list-unstyled seeIcon">
+                                        <li><a href="javascript:;"><img src="assets/images/icon/wishlist.svg" alt="like"></a></li>
+                                        <li><a href="javascript:;"><img src="assets/images/icon/view.svg" alt="view"></a></li>
+                                    </ul>
+                                </div>
+                                <div class="overlay">
+                                    <a href="javascript:;" class="btn themebtn fill cart">Add To Cart<span><img src="assets/images/icon/right_arrow.svg" alt="arrow"></span></a>
+                                </div>
+                            </div>
+                            <div class="contant-body">
+                                <div class="row row-gap-sm-3 row-gap-2">
+                                    <div class="col-12"><div class="productName"><a href="product-details.html" class="pName">Hydrating Waves</a> <span class="bName">SEA BREEZE</span></div></div>
+                                    <div class="col-12">
+                                        <div class="values">
+                                            <div class="prich">$150.00 <span>$200.00</span></div>
+                                            <div class="rating">
+                                                <ul class="starts list-unstyled">
+                                                    <li><span><img src="assets/images/icon/start.svg" alt="star"></span></li>
+                                                    <li><span><img src="assets/images/icon/start.svg" alt="star"></span></li>
+                                                    <li><span><img src="assets/images/icon/start.svg" alt="star"></span></li>
+                                                    <li><span><img src="assets/images/icon/start.svg" alt="star"></span></li>
+                                                    <li><span><img src="assets/images/icon/start.svg" alt="star"></span></li>
+                                                    <li><div class="totalRating">(50)</div></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <span class="forborder"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ! ** Trending Products End -->
+
+    <!-- **Client Section Start ** -->
+    <section class="clientsection m-0">
+        <div class="container innerfluid">
+            <div class="row">
+                <div class="col-12"><div class="heading">Browse by Brand<span>Choose your best brand</span></div></div>
+                <div class="col-12">
+                    <div class="owl-carousel owl-theme clients">
+                        <div class="item"><div class="clientUser"><img src="assets/images/client-1.jpg" alt="client-1"></div></div>
+                        <div class="item"><div class="clientUser"><img src="assets/images/client-2.jpg" alt="client-2"></div></div>
+                        <div class="item"><div class="clientUser"><img src="assets/images/client-3.jpg" alt="client-3"></div></div>
+                        <div class="item"><div class="clientUser"><img src="assets/images/client-4.jpg" alt="client-4"></div></div>
+                        <div class="item"><div class="clientUser"><img src="assets/images/client-5.jpg" alt="client-5"></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--! **Client Section End ** -->
+
+    <!-- **Banner Section Start ** -->
+    <section class="bannerSection">
+        <div class="container innerfluid">
+            <div class="banner">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-5 col-md-6 col-sm-9 col-12 ms-auto">
+                        <div class="row mx-0">
+                            <div class="col-12 productName">Apple iPhone 12 Pro</div>
+                            <div class="col-12 discount">The wait is on: iphone 12 max pro</div>
+                            <div class="col-12 productDetail">Last call for up to <span>32%</span> off!</div>
+                            <div class="col-12"><a href="javascript:;" class="btn themebtn ">Shop Now <span><img src="assets/images/icon/right_arrow.svg" alt="arrow"></span></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--! **Banner Section End ** -->
+    
+    <!-- **Blog Section Start ** -->
+    <section class="blogsection mt-0">
+        <div class="container innerfluid">
+            <div class="row">
+                <div class="col-12"><div class="heading">From the blog<span>product blogs</span></div></div>
+                <div class="col-12">
+                    <div class="owl-carousel owl-theme blogs">
+                        <div class="item">
+                            <div class="productCard card border-0 rounded-0">
+                                <div class="cardImg"><img src="assets/images/blogImg1.jpg" alt="blog image"><span class="blog_category">Life Style</span><a href="javascript:;" class="viewmoreBtn btn themebtn fill">View More</a></div>
+                                <div class="card-body">
+                                    <div class="row row-gap-2">
+                                        <div class="col-12">
+                                            <div class="row row-gap-2">
+                                                <div class="col-md-auto"><div class="blogdate"><span><img src="assets/images/icon/date.svg" alt="month"></span>August 12, 2023</div></div>
+                                                <div class="col"><div class="blogdate"><span><img src="assets/images/icon/user.svg" alt="user"></span>park john</div></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 text-truncate blogLink"><a href="javascript:;" class="productname stretched-link">Our Favorite Multitasking Products</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="productCard card border-0 rounded-0">
+                                <div class="cardImg"><img src="assets/images/blogImg2.jpg" alt="blog image"><span class="blog_category">Life Style</span><a href="javascript:;" class="viewmoreBtn btn themebtn fill">View More</a></div>
+                                <div class="card-body">
+                                    <div class="row row-gap-2">
+                                        <div class="col-12">
+                                            <div class="row row-gap-2">
+                                                <div class="col-md-auto"><div class="blogdate"><span><img src="assets/images/icon/date.svg" alt="month"></span>August 12, 2023</div></div>
+                                                <div class="col"><div class="blogdate"><span><img src="assets/images/icon/user.svg" alt="user"></span>park john</div></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 text-truncate blogLink"><a href="javascript:;" class="productname stretched-link">How To Choose The Right Sofa for your home</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="productCard card border-0 rounded-0">
+                                <div class="cardImg"><img src="assets/images/blogImg3.jpg" alt="blog image"><span class="blog_category">Life Style</span><a href="javascript:;" class="viewmoreBtn btn themebtn fill">View More</a></div>
+                                <div class="card-body">
+                                    <div class="row row-gap-2">
+                                        <div class="col-12">
+                                            <div class="row row-gap-2">
+                                                <div class="col-md-auto"><div class="blogdate"><span><img src="assets/images/icon/date.svg" alt="month"></span>August 12, 2023</div></div>
+                                                <div class="col"><div class="blogdate"><span><img src="assets/images/icon/user.svg" alt="user"></span>park john</div></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 text-truncate blogLink"><a href="javascript:;" class="productname stretched-link">A User-Friendly Guide to Natural Cleansers</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="productCard card border-0 rounded-0">
+                                <div class="cardImg"><img src="assets/images/blogImg4.jpg" alt="blog image"><span class="blog_category">Life Style</span><a href="javascript:;" class="viewmoreBtn btn themebtn fill">View More</a></div>
+                                <div class="card-body">
+                                    <div class="row row-gap-2">
+                                        <div class="col-12">
+                                            <div class="row row-gap-2">
+                                                <div class="col-md-auto"><div class="blogdate"><span><img src="assets/images/icon/date.svg" alt="month"></span>August 12, 2023</div></div>
+                                                <div class="col"><div class="blogdate"><span><img src="assets/images/icon/user.svg" alt="user"></span>park john</div></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 text-truncate blogLink"><a href="javascript:;" class="productname stretched-link">Which foundation formula is right for your skin?</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="productCard card border-0 rounded-0">
+                                <div class="cardImg"><img src="assets/images/blogImg5.jpg" alt="blog image"><span class="blog_category">Life Style</span><a href="javascript:;" class="viewmoreBtn btn themebtn fill">View More</a></div>
+                                <div class="card-body">
+                                    <div class="row row-gap-2">
+                                        <div class="col-12">
+                                            <div class="row row-gap-2">
+                                                <div class="col-md-auto"><div class="blogdate"><span><img src="assets/images/icon/date.svg" alt="month"></span>August 12, 2023</div></div>
+                                                <div class="col"><div class="blogdate"><span><img src="assets/images/icon/user.svg" alt="user"></span>park john</div></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 text-truncate blogLink"><a href="javascript:;" class="productname stretched-link">How To Choose The Right Sofa for your home</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--! **Blog Section End ** -->
+
+    <!-- * Footer Section Start -->
+    <section class="footer m-0">
+        <div class="container">
+            <div class="innerfluid">
+                <div class="row row-gap-4">
+                    <div class="col-lg-3 col-sm-6 col-5">
+                        <div class="link_Heading">Main Links</div>
+                        <ul class="linkGroup list-unstyled">
+                            <li><a href="about.html" class="footer_Links"><span>About Us</span></a></li>
+                            <li><a href="product.html" class="footer_Links"><span>Products</span></a></li>
+                            <li><a href="blog.html" class="footer_Links"><span>Blog</span></a></li>
+                            <li><a href="contact.html" class="footer_Links"><span>contact Us</span></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-7">
+                        <div class="link_Heading">Useful Links</div>
+                        <ul class="linkGroup list-unstyled">
+                            <li><a href="javascript:;" class="footer_Links"><span>New Products</span></a></li>
+                            <li><a href="javascript:;" class="footer_Links"><span>Privacy Policy</span></a></li>
+                            <li><a href="javascript:;" class="footer_Links"><span>Terms & Conditions</span></a></li>
+                            <li><a href="javascript:;" class="footer_Links"><span>Shipping FAQ</span></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-5">
+                        <div class="link_Heading">Follow Us</div>
+                        <ul class="linkGroup list-unstyled">
+                            <li><a href="javascript:;" class="footer_Links"><span>Instagram</span></a></li>
+                            <li><a href="javascript:;" class="footer_Links"><span>Facebook</span></a></li>
+                            <li><a href="javascript:;" class="footer_Links"><span>Youtube</span></a></li>
+                            <li><a href="javascript:;" class="footer_Links"><span>Twitter</span></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-7">
+                        <div class="link_Heading">Infomations</div>
+                        <ul class="linkGroup list-unstyled">
+                            <li><a href="javascript:;" class="footer_Links">29 SE 2nd Ave, Miami, Florida 33131, United States</li>
+                            <li><a href="javascript:;" class="footer_Links">1200-425-1900</a></li>
+                            <li><a href="javascript:;" class="footer_Links">contact@example.com</a></li>
+                            <li><a href="javascript:;" class="footer_Links">1200-1800-1500</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="paymentsource">
+                <div class="row align-items-center row-gap-3">
+                    <div class="col order-md-1 order-2"><p class="copyright text-md-start text-center">©Copyright 2023 Eccommerce | Design By <a href="https://www.helpfulinsightsolution.com/" target="_blank" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top">HIPL</a></p></div>
+                    <div class="col-md-auto col-12 order-md-12 order-1">
+                        <div class="row justify-content-center">
+                            <div class="col-auto"><div class="paymentcard"><img src="assets/images/visa.png" alt="visa card"></div></div>
+                            <div class="col-auto"><div class="paymentcard"><img src="assets/images/maestro.png" alt="maestro card"></div></div>
+                            <div class="col-auto"><div class="paymentcard"><img src="assets/images/american-express.png" alt="american-express card"></div></div>
+                            <div class="col-auto"><div class="paymentcard"><img src="assets/images/mastercard.png" alt="master card"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--! * Footer Section End -->
+
+
+
+    <!-- ?----------- Cart Offcanvas---------- -->
+    <!-- * add Cart Offcanvas -->
+    <!-- <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"></button> -->
+    <div class="offcanvas offcanvas-start cartPopup" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header d-block pb-0">
+            <div class="d-flex align-items-center justify-content-between w-100">
+                <div class="offcanvas-title"><div class="heading m-0 pb-lg-3 pb-2">Shopping Bag</div></div>
+                <button type="button" class="btn-close shadow-none border-0" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <span class="botomborder d-flex"></span>
+        </div>
+        <div class="offcanvas-body">
+            <div class="row row-gap-sm-3 row-gap-2">
+                <div class="col-12">
+                    <div class="itemcard card rounded-0 border-0">
+                        <div class="card-body px-0">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="row gx-2">
+                                        <div class="col-auto"><div class="productimg"><img src="assets/images/product-1.jpg" class="w-100" alt="oil"></div></div>
+                                        <div class="col">
+                                            <div class="productName">Natural Coconut Cleansing Oil</div>
+                                            <div class="productPrice"><span>$39.00</span> $29.00</div>
+                                            <div class="number">
+                                                <span class="minus">-</span>
+                                                <input type="text" class="form-control rounded-0 border-0 shadow-none" value="1"/>
+                                                <span class="plus">+</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-auto"><button type="button" class="btn closeBtn"><img src="assets/images/icon/closeIcone.svg" alt="close"></button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="itemcard card rounded-0 border-0">
+                        <div class="card-body px-0">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="row gx-2">
+                                        <div class="col-auto"><div class="productimg"><img src="assets/images/product-2.jpg" class="w-100" alt="oil"></div></div>
+                                        <div class="col">
+                                            <div class="productName">Super Pure</div>
+                                            <div class="productPrice"><span>$69.00</span> $39.00</div>
+                                            <div class="number">
+                                                <span class="minus">-</span>
+                                                <input type="text" class="form-control rounded-0 border-0 shadow-none" value="1"/>
+                                                <span class="plus">+</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-auto"><button type="button" class="btn closeBtn"><img src="assets/images/icon/closeIcone.svg" alt="close"></button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="itemcard card rounded-0 border-0">
+                        <div class="card-body px-0">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="row gx-2">
+                                        <div class="col-auto"><div class="productimg"><img src="assets/images/product-3.jpg" class="w-100" alt="oil"></div></div>
+                                        <div class="col">
+                                            <div class="productName">Cleansing Balm</div>
+                                            <div class="productPrice"><span>$49.00</span> $39.00</div>
+                                            <div class="number">
+                                                <span class="minus">-</span>
+                                                <input type="text" class="form-control rounded-0 border-0 shadow-none" value="1"/>
+                                                <span class="plus">+</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-auto"><button type="button" class="btn closeBtn"><img src="assets/images/icon/closeIcone.svg" alt="close"></button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="offcanvas-footer p-3">
+            <span class="botomborder d-flex"></span>
+            <div class="row row-gap-3 pt-3">
+                <div class="col-12">
+                    <div class="row align-items-center">
+                        <div class="col subtotal">Subtotal:</div>
+                        <div class="col-auto totalprich">$107</div>
+                    </div>
+                </div>
+                <div class="col-12"><button type="button" class="btn themebtn fill w-100">Check Out</button></div>
+                <div class="col-12"><button type="button" class="btn themebtn w-100">View shopping cart</button></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- * Search  popup -->
+    <!-- <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">Toggle top offcanvas</button> -->
+    <div class="offcanvas offcanvas-top searchpopup" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+    <div class="offcanvas-body d-flex align-items-center px-4">
+        <form action="" class="w-100">
+            <div class="row">
+                <div class="col-12">
+                    <div class="input-group inputsearch">
+                        <input type="search" class="form-control rounded-0 border-0 shadow-none" placeholder="Search">
+                        <span class="input-group-text p-0 border-0" id="basic-addon1"><button class="btn rounded-0 border-0 shadow-none" type="button"><img src="assets/images/icon/search.svg" alt=""></button></span>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    </div>
+    
+    <!-- ** Script Links Start ** -->
+    <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/libs/owl-slider/owl.carousel.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <!-- ** Script Links End ** -->
+ 
+</body>
+</html>
